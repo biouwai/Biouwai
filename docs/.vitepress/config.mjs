@@ -3,7 +3,7 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: "/Biouwai/",
-  title: "比欧外",
+  title: "比欧外aaa",
   description: "比欧外的博客",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
