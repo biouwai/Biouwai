@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/Biouwai/",
   title: "比欧外",
   description: "比欧外的博客",
   themeConfig: {
@@ -25,5 +26,4 @@ export default defineConfig({
       { icon: "github", link: "https://github.com/vuejs/vitepress" },
     ],
   },
-  base: "/docs-demo/",
 });
