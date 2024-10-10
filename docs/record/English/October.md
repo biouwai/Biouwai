@@ -93,12 +93,3 @@
 :::
 
 ### 2. sentence
-
-<script setup>
-setTimeout(()=> {
-    const detailsElement = document.querySelectorAll('.details.custom-block');
-    detailsElement.forEach((element) => {
-       element.style.backgroundColor = 'beige';     
-    })
-},0)
-</script>
