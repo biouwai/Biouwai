@@ -3,23 +3,27 @@
 layout: home
 
 hero:
-  name: "比欧外"
-  text: "比欧外的博客"
-  tagline: My great project tagline
+  name: "比欧外的知识库"
+  tagline: 记录，让知识留下！
+  image:
+    src: /logo.svg
+    alt: biouwai
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 查看文档 ->
+      link: /front-end/HTML&CSS/CSS
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon:
+      src: /think.svg
+    title: 思考
+    details: 或许，多想想，你就知道该学什么了
+  - icon:
+      src: /output.svg
+    title: 输出
+    details: 能够输出，知识链路才算是打通了！
+  - icon:
+      src: /code.svg
+    title: 实践
+    details: 代码敲一遍,好过看十遍！
 ---
-
