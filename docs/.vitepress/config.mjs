@@ -23,7 +23,7 @@ export default defineConfig({
       { text: "博客导航", link: "/blogs/自己文章/前端" },
       { text: "随笔", link: "/essays/" },
       { text: "最佳实践", link: "/practice/" },
-      { text: "每日记录", link: "/record/" },
+      { text: "费曼学习法", link: "/费曼学习法/" },
     ],
 
     sidebar: {
@@ -43,6 +43,7 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: "Javascript", link: "/front-end/Javascript/Javascript" },
+            { text: "异步编程", link: "/front-end/Javascript/异步编程" },
             {
               text: "Js方法工具箱",
               link: "/front-end/Javascript/Js方法工具箱",
@@ -129,35 +130,31 @@ export default defineConfig({
             { text: "说明", link: "/essays/" },
             { text: "时间轴", link: "/essays/时间轴" },
             { text: "前期搬运", link: "/essays/前期搬运" },
+            {
+              text: "思考",
+              items: [
+                {
+                  text: "如何利用回路机制形成好习惯",
+                  link: "/essays/思考/如何利用回路机制形成好习惯",
+                },
+              ],
+            },
           ],
         },
       ],
       "/practice/": [
         {
           text: "实践",
-          items: [{ text: "说明", link: "/practice/" }],
+          items: [
+            { text: "说明", link: "/practice/" },
+            { text: "力扣", link: "/practice/力扣" },
+          ],
         },
       ],
-      "/record/": [
+      "/费曼学习法/": [
         {
-          text: "每日记录",
-          items: [
-            { text: "说明", link: "/record/" },
-            {
-              text: "English",
-              items: [
-                { text: "说明", link: "/record/English/" },
-                { text: "十月", link: "/record/English/October" },
-              ],
-            },
-            {
-              text: "2024年10月",
-              items: [
-                { text: "每日记录", link: "/record/October/" },
-                { text: "账单消费", link: "/record/October/bill" },
-              ],
-            },
-          ],
+          text: "费曼学习法",
+          items: [{ text: "说明", link: "/费曼学习法/" }],
         },
       ],
     },
