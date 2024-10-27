@@ -19,15 +19,14 @@ export default defineConfig({
       provider: "local",
     },
     nav: [
-      { text: "前端", link: "/front-end/HTML&CSS/HTML" },
-      { text: "博客导航", link: "/blogs/自己文章/前端" },
-      { text: "随笔", link: "/essays/" },
-      { text: "最佳实践", link: "/practice/" },
-      { text: "费曼学习法", link: "/费曼学习法/" },
+      { text: "前端", link: "/front-end/" },
+      { text: "随笔", link: "/essays/如何利用回路机制形成好习惯" },
+      { text: "最佳实践", link: "/practice/主时间轴" },
     ],
 
     sidebar: {
       "/front-end/": [
+        { text: "说明", link: "/front-end/" },
         {
           text: "HTML&CSS",
           collapsed: true,
@@ -110,34 +109,13 @@ export default defineConfig({
         },
       ],
 
-      "/blogs/": [
-        {
-          text: "博客导航",
-          items: [
-            {
-              text: "自己文章",
-              items: [{ text: "前端", link: "/blogs/自己文章/前端" }],
-            },
-            { text: "网站导航", link: "/blogs/网站导航" },
-            { text: "好文导航", link: "/blogs/好文导航" },
-          ],
-        },
-      ],
       "/essays/": [
         {
           text: "随笔",
           items: [
-            { text: "说明", link: "/essays/" },
-            { text: "时间轴", link: "/essays/时间轴" },
-            { text: "前期搬运", link: "/essays/前期搬运" },
             {
-              text: "思考",
-              items: [
-                {
-                  text: "如何利用回路机制形成好习惯",
-                  link: "/essays/思考/如何利用回路机制形成好习惯",
-                },
-              ],
+              text: "如何利用回路机制形成好习惯",
+              link: "/essays/如何利用回路机制形成好习惯",
             },
           ],
         },
@@ -146,15 +124,12 @@ export default defineConfig({
         {
           text: "实践",
           items: [
-            { text: "说明", link: "/practice/" },
-            { text: "力扣", link: "/practice/力扣" },
+            { text: "主时间轴", link: "/practice/主时间轴" },
+            { text: "算法时间轴", link: "/practice/算法时间轴" },
+            { text: "健身时间轴", link: "/practice/健身时间轴" },
+            { text: "深度学习", link: "/practice/深度学习" },
+            { text: "贴吧项目时间轴", link: "/practice/贴吧项目时间轴" },
           ],
-        },
-      ],
-      "/费曼学习法/": [
-        {
-          text: "费曼学习法",
-          items: [{ text: "说明", link: "/费曼学习法/" }],
         },
       ],
     },

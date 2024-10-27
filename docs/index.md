@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 查看文档 ->
-      link: /front-end/HTML&CSS/CSS
+      link: /front-end/
 
 features:
   - icon:
