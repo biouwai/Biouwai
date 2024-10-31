@@ -126,7 +126,7 @@ export default defineConfig({
           items: [
             { text: "主时间轴", link: "/practice/主时间轴" },
             { text: "算法时间轴", link: "/practice/算法时间轴" },
-            { text: "健身时间轴", link: "/practice/健身时间轴" },
+            { text: "数据结构与算法", link: "/practice/数据结构与算法" },
             { text: "深度学习", link: "/practice/深度学习" },
             { text: "贴吧项目时间轴", link: "/practice/贴吧项目时间轴" },
           ],
@@ -137,5 +137,8 @@ export default defineConfig({
     socialLinks: [
       { icon: "github", link: "https://github.com/vuejs/vitepress" },
     ],
+  },
+  markdown: {
+    math: true,
   },
 });
