@@ -125,6 +125,7 @@ export default defineConfig({
           text: "实践",
           items: [
             { text: "主时间轴", link: "/practice/主时间轴" },
+            { text: "阶段计划", link: "/practice/阶段计划" },
             { text: "算法时间轴", link: "/practice/算法时间轴" },
             { text: "数据结构与算法", link: "/practice/数据结构与算法" },
             { text: "深度学习", link: "/practice/深度学习" },
