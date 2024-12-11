@@ -20,8 +20,7 @@ export default defineConfig({
     },
     nav: [
       { text: "前端", link: "/front-end/" },
-      { text: "随笔", link: "/essays/如何利用回路机制形成好习惯" },
-      { text: "最佳实践", link: "/practice/主时间轴" },
+      { text: "总结", link: "/practice/主时间轴" },
     ],
 
     sidebar: {
@@ -49,6 +48,11 @@ export default defineConfig({
             },
             { text: "Js手写题", link: "/front-end/Javascript/Js手写题" },
           ],
+        },
+        {
+          text: "TS",
+          collapsed: true,
+          items: [{ text: "基本用法", link: "/front-end/TS/基本用法" }],
         },
         {
           text: "React",
@@ -106,30 +110,26 @@ export default defineConfig({
           text: "杂货",
           collapsed: true,
           items: [{ text: "踩坑汇总", link: "/front-end/杂货/踩坑汇总" }],
+          items: [{ text: "踩坑汇总", link: "/front-end/杂货/vim" }],
         },
       ],
 
-      "/essays/": [
-        {
-          text: "随笔",
-          items: [
-            {
-              text: "如何利用回路机制形成好习惯",
-              link: "/essays/如何利用回路机制形成好习惯",
-            },
-          ],
-        },
-      ],
       "/practice/": [
         {
           text: "实践",
           items: [
             { text: "主时间轴", link: "/practice/主时间轴" },
             { text: "阶段计划", link: "/practice/阶段计划" },
-            { text: "算法时间轴", link: "/practice/算法时间轴" },
-            { text: "数据结构与算法", link: "/practice/数据结构与算法" },
             { text: "深度学习", link: "/practice/深度学习" },
-            { text: "贴吧项目时间轴", link: "/practice/贴吧项目时间轴" },
+            {
+              text: "总结",
+              items: [
+                {
+                  text: "如何利用回路机制形成好习惯",
+                  link: "/practice/总结/如何利用回路机制形成好习惯",
+                },
+              ],
+            },
           ],
         },
       ],
